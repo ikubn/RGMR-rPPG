@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+._*
+
+# local outputs
+outputs/
+results/
+tmp/
+logs/
+
+# dataset and generated artifacts should never be committed here
+/Data/
+/dataset/
+/datasets/
+/analysis_results/
+/manifests/
+/generated_pairs/
+/generated_pairs_pretrained_framewise/
+/generated_pairs_pretrained_secwise/
+*.mp4
+*.avi
+*.mov
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.csv.gz
+
+# large checkpoints that are intentionally external
+checkpoints/*.pth.tar
