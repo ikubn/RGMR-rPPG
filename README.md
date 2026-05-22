@@ -1,13 +1,6 @@
 # Motion Replacement for Video-Based Remote Physiological Measurement
 
-This repository accompanies an anonymous submission. Remote
-photoplethysmography (rPPG) extracts pulse waveforms from facial videos,
-but head and body motion easily overwhelm the weak chromatic signal. We
-propose **Reference-Guided Motion Replacement (RGMR)**, a data-centric
-pipeline that converts high-motion clips into lower-motion counterparts
-using a stable reference video from the same subject, via frame-by-frame
-motion replacement and temporal stabilization. On MMPD and VIPL-HR with
-RhythmMamba, TS-CAN, and PhysFormer, RGMR reduces MAE by up to 67.82%.
+Remote photoplethysmography (rPPG) extracts pulse waveforms from facial videos, but head and body motion easily overwhelm the weak chromatic signal. We propose **Reference-Guided Motion Replacement (RGMR)**, a data-centric pipeline that converts high-motion clips into lower-motion counterparts using a stable reference video from the same subject, via frame-by-frame motion replacement and temporal stabilization. On MMPD and VIPL-HR with RhythmMamba, TS-CAN, and PhysFormer, RGMR reduces MAE by up to 67.82%.
 
 ## Demo
 
